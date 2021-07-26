@@ -3325,18 +3325,18 @@ end
 --     Source Virus     --
 if ChatType == 'sp' or ChatType == 'gp'  then
 if text == 'بوت' or text == 'بوتت' then 
-NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'فايروس')
+NameBot = (DevAbs:get(Virus..'Abs:NameBot') or 'فايروس')
 local VirusTeam = {"لتقول بوت اسمي "..NameBot.." 😒🔪","اسمي القميل "..NameBot.." 😚♥️","عندي اسم تره 😒💔","قولولي "..NameBot.." كفايه بوت 😒🔪","انت البوت 😒💔"} 
 Dev_Abs(msg.chat_id_, msg.id_, 1, VirusTeam[math.random(#VirusTeam)] , 1, 'html') 
 return false
 end
 if text == 'اسم البوت' or text == 'البوت شنو اسمه' or text == 'شسمه البوت' or text == 'البوت شسمه' then
-NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'فايروس') 
+NameBot = (DevAbs:get(Virus..'Abs:NameBot') or 'فايروس') 
 local VirusTeam = {"اسمي القميل "..NameBot.." 😚♥️","هلاا يروحيي وياكك "..NameBot.." 😻♥️"} 
 Dev_Abs(msg.chat_id_, msg.id_, 1, VirusTeam[math.random(#VirusTeam)] , 1, 'html') 
 return false
 end
-if text and text == (DevAbs:get(DevProx..'Abs:NameBot') or 'فايروس') then 
+if text and text == (DevAbs:get(Virus..'Abs:NameBot') or 'فايروس') then 
 NameBot = (DevAbs:get(DevProx..'Abs:NameBot') or 'فايروس')
 local VirusTeam = {'😸♥️ هلا قلبي وياك '..NameBot..' تفضل','ترةه مصختهاا قول عايز ايه 😕😒💔','اطلقق واحدد يقول '..NameBot..' 😻♥️','خبصتت امنةة شتريدد عااد 🤧😒💔'} 
 Dev_Abs(msg.chat_id_, msg.id_, 1, VirusTeam[math.random(#VirusTeam)] , 1, 'html') 
